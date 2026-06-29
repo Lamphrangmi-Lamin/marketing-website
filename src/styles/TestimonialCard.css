@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(#F9FAFB, #D2D6DB);
+  height: 100vh;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  line-height: 1.5rem;
+}
+
+.card-container {
+  background-color: #fff;
+  width: 340px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 3px 2px 5px #D2D6DB;
+}
+
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 24px 24px 16px 24px;
+}
+
+.profile-image {
+    width: 48px;
+}
+.username {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.user-handle {
+  font-weight: 400;
+  color: #525252;
+  font-size: .875rem;
+  display: block;
+}
+
+.testimonial {
+  color: #525252;
+  font-size: 1rem;
+  margin: 0px 24px 24px 24px;
+}
