@@ -1,6 +1,7 @@
 import TestimonialCard from "./components/TestimonialCard/TestimonialCard"
 import BlogCard from "./components/BlogCard/BlogCard"
 import ProfileCard from "./components/ProfileCard/ProfileCard"
+import PricingSection from "./components/PricingSection (Single)/PricingSection"
 
 import profileImage from "./assets/profile-thumbnail.png"
 import interiorImage from "./assets/spacejoy-YqFz7UMm8qE-unsplash.jpg"
@@ -15,7 +16,9 @@ function App() {
 
       {/* <ProfileCard imageurl={profileImage} /> */}
 
-      <HeroSection />
+      {/* <HeroSection /> */}
+
+      <PricingSection />
     </div>
   )
 }
