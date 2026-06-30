@@ -4,6 +4,7 @@ import ProfileCard from "./components/ProfileCard/ProfileCard"
 
 import profileImage from "./assets/profile-thumbnail.png"
 import interiorImage from "./assets/spacejoy-YqFz7UMm8qE-unsplash.jpg"
+import HeroSection from "./components/HeroSection/HeroSection"
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
       {/* <BlogCard imageurl={interiorImage} title="Top 5 Living Room Inspirations" badgeText="Interior" description="Curated vibrants colors for your living, make it pop & calm in the same time." /> */}
 
-      <ProfileCard imageurl={profileImage} />
+      {/* <ProfileCard imageurl={profileImage} /> */}
+
+      <HeroSection />
     </div>
   )
 }
