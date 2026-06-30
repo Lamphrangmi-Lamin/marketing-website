@@ -14,7 +14,7 @@ function BlogCard({ imageurl, title, badgeText, description }) {
                 </h2>
                 <p className="text-neutral-600 font-medium text-base mb-6">{description}</p>
 
-                <button className="flex items-center gap-[0.583rem] font-medium text-base text-indigo-700 cursor-pointer">Read more <i class="ri-arrow-right-line text-xl"></i>
+                <button className="flex items-center gap-[0.583rem] font-medium text-base text-indigo-700 cursor-pointer">Read more <i className="ri-arrow-right-line text-xl"></i>
                 </button>
             </section>
 
