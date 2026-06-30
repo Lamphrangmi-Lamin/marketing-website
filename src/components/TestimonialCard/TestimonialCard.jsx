@@ -1,4 +1,4 @@
-import '../styles/TestimonialCard.css'
+import './/TestimonialCard.css'
 
 function TestimonialCard({imageurl, username, userhandle, testimonial}) {
     return (
