@@ -1,6 +1,4 @@
-import heroImage from "../../assets/prism.png"
-
-function HeroSection() {
+function HeroSimple({imageUrl}) {
     return (
         <main
       className="bg-white min-h-screen rounded px-3 grid auto-rows-min grid-cols-4 gap-x-4 py-12 gap-y-12 content-center md:grid-cols-6 md:gap-x-8 md:gap-y-8 md:py-16 md:px-4 md:rounded-md lg:grid-cols-12 lg:p-24 lg:gap-x-8 lg:rounded-lg"
@@ -41,7 +39,7 @@ function HeroSection() {
       <section className="col-span-4 md:col-span-6 lg:col-span-7">
         <div className="min-h-66 min-w-79.75 md:min-h-131.5 md:min-w-176 lg:min-h-131.5 lg:min-w-174">
           <img
-            src={heroImage}
+            src={imageUrl}
             alt=""
             className="w-full h-full object-cover"
           />
@@ -51,4 +49,4 @@ function HeroSection() {
     )
 }
 
-export default HeroSection
+export default HeroSimple
