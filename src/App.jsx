@@ -4,6 +4,7 @@ import ProfileCard from "./components/ProfileCard/ProfileCard"
 import PricingSection from "./components/PricingSection (Single)/PricingSection"
 import HeroSimple from "./components/Hero/HeroSimple/HeroSimple"
 import HeroFeatureBullets from "./components/Hero/HeroFeature/HeroFeatureBullets"
+import StatisticsSection from "./components/StatisticsSection/StatisticsSection"
 
 import profileImage from "./assets/profile-thumbnail.png"
 import interiorImage from "./assets/spacejoy-YqFz7UMm8qE-unsplash.jpg"
@@ -23,7 +24,9 @@ function App() {
 
       {/* <PricingSection /> */}
 
-      <HeroFeatureBullets imageUrl={heroImage} />
+      {/* <HeroFeatureBullets imageUrl={heroImage} /> */}
+      <StatisticsSection />
+
     </div>
   )
 }
