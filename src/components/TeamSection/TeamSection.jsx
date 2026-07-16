@@ -1,4 +1,4 @@
-import { team } from "./TeamSection"
+import { team } from "./teamData"
 
 export default function TeamSection() {
     return (

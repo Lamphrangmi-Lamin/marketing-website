@@ -6,7 +6,7 @@ import HeroSimple from "./components/Hero/HeroSimple/HeroSimple"
 import HeroFeatureBullets from "./components/Hero/HeroFeature/HeroFeatureBullets"
 import StatisticsSection from "./components/StatisticsSection/StatisticsSection"
 import FeaturesGrid from "./components/FeaturesSection/FeaturesGrid"
-import TeamSection from "./components/TeamSection/TeamSection"
+import TeamSection from "./components/TeamSection/TeamSection.jsx"
 
 import profileImage from "./assets/profile-thumbnail.png"
 import interiorImage from "./assets/spacejoy-YqFz7UMm8qE-unsplash.jpg"
